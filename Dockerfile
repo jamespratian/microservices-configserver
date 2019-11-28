@@ -1,4 +1,4 @@
 FROM java:8
-ADD ./target/netflix-eureka-naming-server.jar netflix-eureka-naming-server.jar
-ENTRYPOINT ["java","-jar","netflix-eureka-naming-server.jar"]
-EXPOSE 8000
+ADD ./target/spring-cloud-config-server.jar spring-cloud-config-server.jar
+ENTRYPOINT ["java","-jar","spring-cloud-config-server.jar"]
+EXPOSE 8001
